@@ -1,13 +1,12 @@
-@extends('_layouts.master')
+@extends('_layouts.app')
 
 @section('body')
     <div class="min-h-screen bg-gradient-to-br from-indigo-100 to-white flex justify-center items-center">
         <div>
             <h1 class="text-6xl font-bold">Grant Janecek</h1>
-            <div class="flex space-x-3 justify-center align-baseline">
-                <a href="https://github.com/grantjanecek">Github</a>
-                <a href="https://www.linkedin.com/in/grant-janecek-20170752/">Linkedin</a>
-                <a href=""></a>
+            <div class="flex space-x-3 justify-center align-baseline mt-2">
+                <a class="text-lg text-gray-600 hover:text-indigo-600" href="{{ $page->github_url }}">Github</a>
+                <a class="text-lg text-gray-600 hover:text-indigo-600" href="{{ $page->linkedin_url }}">Linkedin</a>
             </div>
         </div>
     </div>
