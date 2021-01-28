@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/grant/Sites/personal/janecekblog/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /Users/grant/Sites/personal/janecekblog/source/_assets/css/main.css */"./source/_assets/css/main.css");
+__webpack_require__(/*! /Users/grant/code/grantjanecek/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /Users/grant/code/grantjanecek/source/_assets/css/main.css */"./source/_assets/css/main.css");
 
 
 /***/ })

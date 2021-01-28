@@ -7,6 +7,7 @@
             <div class="flex space-x-3 justify-center align-baseline mt-2">
                 <a class="text-lg text-gray-600 hover:text-indigo-600" href="{{ $page->github_url }}">Github</a>
                 <a class="text-lg text-gray-600 hover:text-indigo-600" href="{{ $page->linkedin_url }}">Linkedin</a>
+                <a class="text-lg text-gray-600 hover:text-indigo-600" href="/resume">Resume</a>
             </div>
         </div>
     </div>

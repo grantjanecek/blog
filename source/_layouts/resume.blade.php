@@ -7,10 +7,10 @@
         <meta name="referrer" content="always">
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
-        <title>{{ $page->title }}</title>
+        <title>Resume</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
-    <body class="text-gray-900 font-sans antialiased">
+    <body class="text-gray-900 font-sans antialiased bg-gray-100">
         @yield('body')
     </body>
 </html>
