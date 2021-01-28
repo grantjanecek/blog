@@ -4,7 +4,7 @@
     <div class="container w-1/2 my-5 mx-auto shadow bg-white p-10">
         <div class="flex">
             <div class="w-1/3 flex justify-center">
-                <img class="w-40 h-40 rounded-full" src="/assets/images/headshot.png" alt="Headshot">
+                <img class="w-40 h-40 rounded-full" src="/assets/images/headshot.jpg" alt="Headshot">
             </div>
             <div class="w-2/3 flex-grow">
                 <h1 class="text-4xl mb-1">Grant Janecek</h1>
