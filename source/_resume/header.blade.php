@@ -1,11 +1,11 @@
-<div class="flex">
-    <div class="w-1/4 flex justify-center">
+<div class="flex flex-col lg:flex-row space-y-2 lg:space-y-0">
+    <div class="lg:w-1/4 flex justify-center">
         <img class="w-32 h-32 rounded-full" src="/assets/images/headshot.jpg" alt="Headshot">
     </div>
-    <div class="w-3/4">
+    <div class="lg:w-3/4">
         <h1 class="text-4xl mb-1">{{ $page->name }}</h1>
         <h2 class="text-xl mb-2">{{ $page->current_title }}</h2>
-        <div class="flex space-x-10 mb-2">
+        <div class="flex flex-col lg:flex-row space-y-2 lg:space-x-10 mb-2">
             <div class="flex space-x-1 items-center">
                 <img class="w-4 h-4" src="/assets/images/link.svg" alt="Link Icon">
                 <p>{{ $page->website }}</p>
